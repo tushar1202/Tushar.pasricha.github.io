@@ -5,121 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tushar Pasricha - Senior Data Scientist</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Tushar Pasricha">
-        <h1>Tushar Pasricha</h1>
-        <p>Senior Data Scientist | AI/ML Expert | LLM Specialist</p>
-        <div class="contact-info">
-            <a href="mailto:tusharp96@gmail.com">tusharp96@gmail.com</a> |
-            <a href="tel:8860218548">8860218548</a> |
-            <a href="https://www.linkedin.com/in/tushar-pasricha" target="_blank">LinkedIn</a>
+        <div class="header-content">
+            <img src="images/profile.jpg" alt="Tushar Pasricha" class="profile-img">
+            <h1>Tushar Pasricha</h1>
+            <p class="tagline">Senior Data Scientist | AI/ML Expert | Large Language Models Specialist</p>
+            <div class="social-links">
+                <a href="mailto:tusharp96@gmail.com" class="social-link">Email</a>
+                <a href="https://www.linkedin.com/in/tushar-pasricha" target="_blank" class="social-link">LinkedIn</a>
+                <a href="tel:8860218548" class="social-link">Phone</a>
+            </div>
         </div>
     </header>
 
-    <nav>
-        <a href="#summary">Summary</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-    </nav>
-
-    <section id="summary">
-        <h2>Professional Summary</h2>
-        <p>
-            Senior Data Scientist with 7.5 years of experience specializing in Large Language Models, Machine Learning, and AI solutions. Demonstrated expertise in developing enterprise-scale LLM applications with RAG architectures, achieving $1M+ in cost savings. Strong track record in leading cross-functional teams and delivering end-to-end ML solutions from ideation to production. Proficient in MLOps, real-time prediction systems, and automated data pipelines.
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p class="about-text">
+            I’m a Senior Data Scientist with 7.5+ years of experience specializing in <strong>Large Language Models (LLMs)</strong>, <strong>Machine Learning</strong>, and <strong>AI solutions</strong>. I’ve architected and deployed enterprise-scale AI systems that have saved over $1M in costs while improving operational efficiency. My expertise lies in building end-to-end ML solutions, from ideation to production, with a focus on <strong>Retrieval Augmented Generation (RAG)</strong>, <strong>MLOps</strong>, and <strong>real-time prediction systems</strong>.
         </p>
     </section>
 
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-            <div>
-                <h3>AI/ML</h3>
+    <section id="highlights" class="section">
+        <h2>Key Achievements</h2>
+        <div class="highlights-grid">
+            <div class="highlight-card">
+                <h3>$1M+ Cost Savings</h3>
+                <p>Designed and deployed 10+ LLM solutions, achieving significant cost reductions.</p>
+            </div>
+            <div class="highlight-card">
+                <h3>10x Faster Reporting</h3>
+                <p>Built a market intelligence chatbot using LLMs for automated SQL generation.</p>
+            </div>
+            <div class="highlight-card">
+                <h3>10% Renewal Rate Boost</h3>
+                <p>Implemented a secure RAG-based contract intelligence system for 20,000+ users.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>DP World | Senior Data Scientist</h3>
+                <p class="timeline-date">Mar 2022 - Present</p>
                 <ul>
-                    <li>Agentic Workflows using Large Language Models (Llama, GPT-4, Claude)</li>
-                    <li>Retrieval Augmented Generation (RAG)</li>
-                    <li>Vector Databases (FAISS, ChromaDB)</li>
-                    <li>MLflow, Neural Networks (CNN, ANN), NLP</li>
+                    <li>Architected and deployed 10+ specialized LLM solutions, achieving $1M+ cost savings.</li>
+                    <li>Pioneered a market intelligence chatbot using LLMs for automated SQL generation.</li>
+                    <li>Built a maritime ETA prediction system with custom ML models for vessel route forecasting.</li>
+                    <li>Enhanced lead scoring algorithm, increasing monthly conversion rates by 50%.</li>
+                    <li>Designed an algorithm for efficient company name similarity identification across datasets.</li>
                 </ul>
             </div>
-            <div>
+            <div class="timeline-item">
+                <h3>Fractal Analytics | Advance Analytics Consultant</h3>
+                <p class="timeline-date">Aug 2020 – Mar 2022</p>
+                <ul>
+                    <li>Optimized retail chain planning and operations for a leading CPG firm using AI and data analytics.</li>
+                    <li>Developed a real-time warehouse operations tool, saving $4M annually per site.</li>
+                    <li>Codified configurable business rules on Rulex for daily stock transfers.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Mu Sigma | Decision Scientist</h3>
+                <p class="timeline-date">Dec 2018 – Aug 2020</p>
+                <ul>
+                    <li>Generated daily demand forecasts for a global retailer, saving $2M annually across 70+ warehouses.</li>
+                    <li>Optimized labor and trailer planning, improving efficiency by 20%.</li>
+                    <li>Established a robust data pipeline for aggregating data from Teradata, MSSQL, and Hive.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Accenture | Data Scientist</h3>
+                <p class="timeline-date">Sep 2017 – Nov 2018</p>
+                <ul>
+                    <li>Developed a customer segmentation model for targeted promotional offers.</li>
+                    <li>Established a data pipeline for multi-source data aggregation.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>AI/ML</h3>
+                <ul>
+                    <li>Large Language Models (Llama, GPT-4, Claude)</li>
+                    <li>Retrieval Augmented Generation (RAG)</li>
+                    <li>Vector Databases (FAISS, ChromaDB)</li>
+                </ul>
+            </div>
+            <div class="skill-category">
                 <h3>MLOps & Infrastructure</h3>
                 <ul>
                     <li>Databricks Endpoints</li>
-                    <li>Model Monitoring, CI/CD Pipelines</li>
-                    <li>Container Deployment (Kubernetes)</li>
+                    <li>Kubernetes, MLflow</li>
+                    <li>CI/CD Pipelines</li>
                 </ul>
             </div>
-            <div>
-                <h3>Big Data & Cloud</h3>
-                <ul>
-                    <li>PySpark, Hadoop, Azure Databricks</li>
-                    <li>MSSQL, ETL Pipelines</li>
-                    <li>Data Lake Architecture</li>
-                </ul>
-            </div>
-            <div>
+            <div class="skill-category">
                 <h3>Programming & Tools</h3>
                 <ul>
                     <li>Python, SQL, Git</li>
-                    <li>Microsoft Azure, Confluence, JIRA</li>
-                    <li>Agile Project Management</li>
+                    <li>Azure, PySpark, Hadoop</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <div class="experience-item">
-            <h3>DP World | Senior Data Scientist | Mar 2022 - Present</h3>
-            <ul>
-                <li>Architected and deployed 10 specialized LLM solutions, achieving $1M+ cost savings and 85% user satisfaction.</li>
-                <li>Pioneered market intelligence chatbot using LLMs for automated SQL generation, improving report generation speed by 10x.</li>
-                <li>Implemented secure RAG-based contract intelligence system, improving renewal rates by 10% for 20,000+ monthly users.</li>
-                <li>Built maritime ETA prediction system with custom ML models for vessel route forecasting and real-time port congestion analysis.</li>
-            </ul>
-        </div>
-        <div class="experience-item">
-            <h3>Fractal Analytics | Advance Analytics Consultant | Aug 2020 – Mar 2022</h3>
-            <ul>
-                <li>Optimized retail chain planning and operations for a leading CPG firm using AI and data analytics.</li>
-                <li>Developed real-time warehouse operations tool, saving $4M annually per site.</li>
-            </ul>
-        </div>
-        <div class="experience-item">
-            <h3>Mu Sigma | Decision Scientist | Dec 2018 – Aug 2020</h3>
-            <ul>
-                <li>Generated daily demand forecasts for a global retailer, saving $2M annually across 70+ warehouses.</li>
-                <li>Optimized labor and trailer planning, improving efficiency by 20%.</li>
-            </ul>
-        </div>
-        <div class="experience-item">
-            <h3>Accenture | Data Scientist | Sep 2017 – Nov 2018</h3>
-            <ul>
-                <li>Developed customer segmentation model for targeted promotions.</li>
-                <li>Established data pipeline for multi-source data aggregation.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="education">
+    <section id="education" class="section">
         <h2>Education</h2>
-        <p><strong>Maharaja Agrasen Institute of Technology</strong> | Bachelor of Technology in Electronics and Communication | June 2017</p>
-        <p>Relevant Coursework: Machine Learning, Data Science, Statistics</p>
+        <div class="education-item">
+            <h3>Maharaja Agrasen Institute of Technology</h3>
+            <p class="education-date">June 2017</p>
+            <p>Bachelor of Technology in Electronics and Communication</p>
+            <p>Relevant Coursework: Machine Learning, Data Science, Statistics</p>
+        </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="section">
         <h2>Projects & Leadership</h2>
-        <ul>
-            <li>Managed a 4-member data science team and a 12-person vendor team.</li>
-            <li>Mentored IIM Bangalore interns in analytics projects.</li>
-            <li>Active Kaggler, contributing to Machine Learning discussions.</li>
-            <li>Presented insights to global heads and prepared executive summaries.</li>
-        </ul>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Maritime ETA Prediction System</h3>
+                <p>Built a comprehensive system for vessel route forecasting and real-time port congestion analysis.</p>
+            </div>
+            <div class="project-card">
+                <h3>Market Intelligence Chatbot</h3>
+                <p>Developed an LLM-powered chatbot for automated SQL generation, improving report generation speed by 10x.</p>
+            </div>
+            <div class="project-card">
+                <h3>Team Leadership</h3>
+                <p>Managed a 4-member data science team and a 12-person vendor team.</p>
+            </div>
+        </div>
     </section>
 
     <footer>
